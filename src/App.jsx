@@ -28,7 +28,7 @@ function App() {
             <Link to="/policies" className="ml-4">Policies</Link>
             <div>
               <button onClick={() => changeLanguage('en')} className="mr-4">English</button>
-              <button onClick={() => changeLanguage('hi')}>Hindi</button>
+              <button onClick={() => changeLanguage('hi')}>हिंदी</button>
             </div>
           </div>
         </nav>
