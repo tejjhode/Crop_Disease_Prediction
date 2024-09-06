@@ -24,8 +24,8 @@ function App() {
         <nav className="bg-green-600 text-white p-4">
           <div className="container mx-auto flex justify-between">
             <Link to="/" className="text-2xl font-bold">{t("Crop Disease Detector")}</Link>
-            <Link to="/news" className="ml-4">News</Link>
-            <Link to="/policies" className="ml-4">Policies</Link>
+            <Link to="/news" className="ml-4">{t("News")}</Link>
+            <Link to="/policies" className="ml-4">{t("Policies")}</Link>
             <div>
               <button onClick={() => changeLanguage('en')} className="mr-4">English</button>
               <button onClick={() => changeLanguage('hi')}>हिंदी</button>
