@@ -6,7 +6,7 @@ import { initReactI18next } from 'react-i18next';
 const resources = {
   en: {
     translation: { 
-      "Crop Disease Detector": "Crop Disease Detector",
+      "Krishi360": "Krishi360",
       "News": "News",
       "Policies": "Policy",
       "Analyze Your Crop": "Analyze Your Crop",
@@ -21,7 +21,7 @@ const resources = {
   },
   hi: {
     translation: {
-      "Crop Disease Detector": "फसल रोग पहचानकर्ता",
+      "Krishi360": "कृषि360",
       "News": "समाचार",
       "Policies": "नीति",
       "Analyze Your Crop": "अपनी फसल का विश्लेषण करें",

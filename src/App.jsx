@@ -23,7 +23,7 @@ function App() {
        <div className="min-h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/src/utils/images.jpg)' }}>
         <nav className="bg-green-600 text-white p-4">
           <div className="container mx-auto flex justify-between">
-            <Link to="/" className="text-2xl font-bold">{t("Crop Disease Detector")}</Link>
+            <Link to="/" className="text-2xl font-bold">{t("Krishi360")}</Link>
             <Link to="/news" className="ml-4">{t("News")}</Link>
             <Link to="/policies" className="ml-4">{t("Policies")}</Link>
             <div>
