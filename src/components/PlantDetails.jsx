@@ -11,13 +11,13 @@ function PlantDetails({ plantData }) {
     <div className="max-w-2xl mx-auto bg-white shadow-md rounded-lg px-8 pt-6 pb-8">
       <h2 className="text-3xl font-extrabold mb-6 text-green-800 text-center flex items-center justify-center">
         <FaLeaf className="mr-2" />
-        Plant Analysis Results
+        Crop Analysis Results
       </h2>
       
       <div className="mb-6">
         <h3 className="text-2xl font-semibold mb-3 text-green-700 flex items-center">
           <FaLeaf className="mr-2 text-green-600" />
-          Plant Details
+          Crop Details
         </h3>
         <p className="text-gray-700 text-lg">{plantData.details}</p>
       </div>
