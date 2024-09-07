@@ -1,4 +1,5 @@
 import React from "react";
+import Markdown from "react-markdown";
 import { FaLeaf, FaDisease, FaPrescriptionBottle } from "react-icons/fa"; // Import icons
 
 function PlantDetails({ plantData }) {
@@ -39,7 +40,7 @@ function PlantDetails({ plantData }) {
           <FaPrescriptionBottle className="mr-2 text-blue-600" />
           Treatment
         </h3>
-        <p className="text-gray-700 text-lg">{plantData.treatment}</p>
+        <p className="text-gray-700 text-lg"><Markdown>{plantData.treatment}</Markdown></p>
       </div>
     </div>
   );
