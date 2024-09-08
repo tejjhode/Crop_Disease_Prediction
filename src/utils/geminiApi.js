@@ -2,7 +2,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const API_KEY = import.meta.env.VITE_API_KEY;
 
-const genAI = new GoogleGenerativeAI("AIzaSyAbIJ5g5tO75rdyqTtKcDNq88vN7_Imti0");
+const genAI = new GoogleGenerativeAI("API_KEY");
 
 export async function analyzePlantWithGemini(plantDetails, imageFile) {
   try {
